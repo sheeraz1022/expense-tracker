@@ -42,7 +42,7 @@ function AddTransaction() {
             <InputWrapper type="number" id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="RM Value of Transaction"
                             required="required"/>
             <AddButton onClick={onSubmit}>
                 Add Me
