@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
-export const HeaderWrapper = styled.h2``;
+export const HeaderWrapper = styled.h2`
 
-export const LabelWrapper = styled.label``;
+`;
+
+export const LabelWrapper = styled.label`
+margin: 5px 0px
+`;
 
 export const InputWrapper = styled.input`
     border: 1px solid #dedede;

@@ -22,6 +22,9 @@ background-color: #f7f7f7;
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  margin: 30px auto;
+  width: 500px;
+  padding 0 50px;
 `
 
 function App() {

@@ -11,7 +11,7 @@ function TransactionHistory() {
         <ListWrapper>
            
             {transactions.map((transaction)=>
-                <TransactionWrapper color="#000000">
+                <TransactionWrapper color={(transaction.transactionAmount > 0) ? "#b6960a" : "#2da3ad"}>
                     {transaction.description}
                     <span>${Math.abs(transaction.transactionAmount)}</span>
                 </TransactionWrapper>
